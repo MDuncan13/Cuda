@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 __global__ void hello() {
  printf("gpu hello!\n");
 }
